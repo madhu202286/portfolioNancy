@@ -1,0 +1,46 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+    line-height: 28px;
+    margin:40px;
+}
+.content{
+    width:50%;
+    float:left;
+}
+.purple{
+    color:blueviolet !important;
+}
+img{
+    width:25vw;
+    height:25vw;
+    padding:0 25%;
+}
+.btn{
+    color: white;
+    background-color: blueviolet;
+    padding: 13px 42px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.container{
+    width:100%;
+    height:auto;
+    margin:20px;
+    display:inline-block;
+    border:1px dotted black;
+    padding:20px;
+}
+.experience{
+    padding:10px;
+    border-left: 2px solid grey ;
+}
+ @media (max-width:550px){
+     img{
+         display:none;
+     }
+     .content{
+         float:none;
+         width:100%;
+     }
+ }
